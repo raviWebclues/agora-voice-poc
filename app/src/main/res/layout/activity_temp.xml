@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.temp.TempActivity">
+
+    <EditText
+        android:id="@+id/etChannelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUser"
+        android:gravity="center"
+        android:hint="Channel Name"
+        android:inputType="number"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioHost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:checked="true"
+            android:text="Host"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioAudience"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Audience"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tvAgoraService"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:scaleType="center"
+        android:src="@drawable/btn_endcall"
+        android:text="Start Pod"
+        android:textColor="@color/white" />
+
+</LinearLayout>

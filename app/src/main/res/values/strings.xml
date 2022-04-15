@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AgoraAudio</string>
+    <string name="agora_app_id">198262ced2f14f3aabdf03bcd45657fe</string>
+    <!--        <string name="agora_app_id">7de46b12d9f446ecb0251d4aee29cb54</string>-->
+</resources>
